@@ -20,8 +20,7 @@ This is a simple web application that generates random quotes. Users can click a
 ## Installation
 
 To run the project locally, simply clone this repository to your local machine and open the `index.html` file in a web browser:
-## Run code
-![Code Link](https://hrishabhvarshney.github.io/Random-Quote-Generator/)
+
 ```bash
 git clone https://github.com/hrishabhvarshney/random-quote-generator.git
 cd random-quote-generator

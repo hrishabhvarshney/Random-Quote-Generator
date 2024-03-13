@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Body styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 0.5s ease-in-out;
+  background: linear-gradient(to bottom, #f0f0f0, #dcdcdc);
+}
+
+/* Quote styles */
+.quote {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Quote hover effect */
+.quote:hover {
+  background-color: #e9e9e9;
+}
+
+/* Quote text styles */
+#quote-text {
+  font-size: 24px;
+  color: #333;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Quote author styles */
+#quote-author {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Action buttons styles */
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+button:hover {
+  /* transform: translateY(-3px); */
+  background-color: #5a5a5a;
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* New Quote button styles */
+#new-quote-button {
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Read Aloud button styles */
+#read-aloud-button,
+#copy-text-button,
+#share-button {
+  background-color: #6c757d;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
